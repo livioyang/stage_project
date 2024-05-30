@@ -1,0 +1,63 @@
+/* Stile per la navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Stile per la griglia di immagini */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-item {
+    position: relative;
+  }
+  
+  .image-item a {
+    display: block;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Stile per la descrizione */
+  .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .description span {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /**/
